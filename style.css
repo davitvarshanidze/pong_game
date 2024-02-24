@@ -9,6 +9,8 @@
 }
 
 body {
+    border: solid 1px gray;
+
     margin: 0;
     background-color: black;
     overflow: hidden;
@@ -16,7 +18,6 @@ body {
 
 .paddle {
     --position: 50;
-
     position: absolute;
     background-color: var(--foreground-color);
     top: calc(var(--position) * 1vh);
